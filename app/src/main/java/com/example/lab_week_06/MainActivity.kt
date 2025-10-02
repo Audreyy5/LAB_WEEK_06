@@ -46,6 +46,7 @@ class MainActivity : AppCompatActivity() {
         itemTouchHelper.attachToRecyclerView(recyclerView)
 
         // Add data to the model list in the adapter
+        // Add data to the model list in the adapter
         catAdapter.setData(
             listOf(
                 CatModel(
@@ -68,6 +69,55 @@ class MainActivity : AppCompatActivity() {
                     "Curious George",
                     "Award winning investigator",
                     "https://cdn2.thecatapi.com/images/bar.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.Bengal,
+                    "Simba",
+                    "Playful jungle cat",
+                    "https://cdn2.thecatapi.com/images/ybv.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.Birman,
+                    "Luna",
+                    "Loves to nap in the sun",
+                    "https://cdn2.thecatapi.com/images/9k1.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.MaineCoon,
+                    "Thor",
+                    "Big and fluffy guardian",
+                    "https://cdn2.thecatapi.com/images/MTY3ODIyMQ.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.Persian,
+                    "Cleo",
+                    "Royal and elegant",
+                    "https://cdn2.thecatapi.com/images/7u2.jpg"
+                ),
+                CatModel(
+                    Gender.Male,
+                    CatBreed.Siberian,
+                    "Max",
+                    "Curious and adventurous",
+                    "https://cdn2.thecatapi.com/images/3f3.jpg"
+                ),
+                CatModel(
+                    Gender.Female,
+                    CatBreed.Sphynx,
+                    "Nala",
+                    "Sweet but mischievous",
+                    "https://cdn2.thecatapi.com/images/MTc5MjA5MQ.jpg"
+                ),
+                CatModel(
+                    Gender.Unknown,
+                    CatBreed.TurkishVan,
+                    "Shadow",
+                    "Mysterious wanderer",
+                    "https://cdn2.thecatapi.com/images/MTk3MzQ0NQ.jpg"
                 )
             )
         )
